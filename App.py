@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 #-*- coding:utf-8 -*-
-中国='china' # for Python3.x
+请在Python3下运行此程序='Please run this program with Python3'
 
-from pyquery import PyQuery as pq
+from pyquery import PyQuery as pq # API: http://pythonhosted.org/pyquery/api.html
 import requests  # 快速上手： http://cn.python-requests.org/zh_CN/latest/user/quickstart.html 本页内容为如何入门Requests提供了很好的指引。
 import time
 import random
-# from jiexi import hreflist, namelist
 
 
 def calc_download(url):
